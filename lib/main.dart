@@ -1,10 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:tuned_read/constant.dart';
-import 'package:tuned_read/widget/dashboard_widget.dart';
+
+import 'package:tuned_read/Qurandata/uthmani.dart';
 import 'package:tuned_read/widget/home_page.dart';
-import 'package:tuned_read/widget/search_header_widget.dart';
-import 'package:tuned_read/widget/side_menu.dart';
+
+import 'Qurandata/quran.dart';
 
 void main() => runApp(const ReadApp());
 
@@ -20,7 +21,8 @@ class ReadApp extends StatelessWidget {
          scaffoldBackgroundColor: backGroundColor,
         brightness: Brightness.dark,
       ),
-      home: const NewHomePage(),
+      home: NewHomePage(),
+      //QuranPage(),
     );
   }
 }

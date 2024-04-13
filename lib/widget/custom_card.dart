@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:tuned_read/constant.dart';
 
 class CustomCard extends StatelessWidget {
-  const CustomCard({super.key, required this.child,  this.color,  this.padding});
+  const  CustomCard({super.key, required this.child,  this.color,  this.padding});
   final Widget child;
   final Color? color;
   final EdgeInsetsGeometry? padding;
